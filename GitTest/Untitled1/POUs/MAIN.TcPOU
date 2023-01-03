@@ -6,6 +6,7 @@ VAR
 	FirstAddedVariables : BOOL;
 	SecondAdded : INT;
 	ThirdAdded : REAL;
+	ddd_SecondInput : BOOL;
 END_VAR
 ]]></Declaration>
     <Implementation>

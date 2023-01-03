@@ -4,6 +4,9 @@
     <Declaration><![CDATA[FUNCTION_BLOCK TestPOU
 VAR_INPUT
 	FirstIntput : BOOL;
+	SecondInput : BOOL;
+	_SecondInput : BOOL;
+	s_SecondInput : BOOL;
 END_VAR
 VAR_OUTPUT
 END_VAR
