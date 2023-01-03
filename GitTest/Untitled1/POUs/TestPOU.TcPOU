@@ -3,6 +3,7 @@
   <POU Name="TestPOU" Id="{e9284524-1b8f-4e59-87db-04d925e94940}" SpecialFunc="None">
     <Declaration><![CDATA[FUNCTION_BLOCK TestPOU
 VAR_INPUT
+	FirstIntput : BOOL;
 END_VAR
 VAR_OUTPUT
 END_VAR
