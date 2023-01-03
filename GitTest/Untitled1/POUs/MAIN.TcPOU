@@ -5,10 +5,12 @@
 VAR
 	FirstAddedVariables : BOOL;
 	SecondAdded : INT;
+	ThirdAdded : REAL;
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[FirstAddedVariables := TRUE;]]></ST>
+      <ST><![CDATA[FirstAddedVariables := TRUE;
+ThirdAdded := 1.11;]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>
