@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.6">
+  <POU Name="MAIN" Id="{c3ec141f-da58-4d58-a482-7517298a7f1a}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	FirstAddedVariables : BOOL;
+	SecondAdded : INT;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[FirstAddedVariables := TRUE;]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>
