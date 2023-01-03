@@ -6,6 +6,8 @@ VAR
 	FirstAddedVariables : BOOL;
 	SecondAdded : INT;
 	abcd : BOOL;
+	abc : BOOL;
+	
 END_VAR
 ]]></Declaration>
     <Implementation>
